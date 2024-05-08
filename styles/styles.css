@@ -1,3 +1,91 @@
-h1 {
-    color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+h1,h2,h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #5D3317;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.navbar-items a {
+    color: #FFF8E7;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #FFB6C1;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color:#93C572 ;
+    border-radius: 5px;
+    /* #FFE135 */
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #7BAA5A ;
+    color: #FFD6F1;
+}
+
+.main-banner {
+    background-image: url("../images/fundo_confeitaria1.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #FFE135;
+    text-shadow: #000 2px 2px 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
 }
