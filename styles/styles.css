@@ -89,3 +89,246 @@ nav {
 .main-banner p {
     font-size: 32px;
 }
+
+.services-container {
+    padding: 5rem 0;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.services-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas, 
+.fa-solid {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-usd {
+    color: #00A000;
+    text-shadow: #000 1px 1px 1px;
+}
+
+.fa-cookie-bite {
+    color:#5D3317;
+    text-shadow: #000 1px 1px 1px;
+}
+
+.fa-truck-fast {
+    color: #ffb6c1;
+    text-shadow: #000 1px 1px 1px;
+}
+
+.services-container h3 {
+    margin-bottom: 25px;
+}
+
+.services-container p {
+    line-height: 24px;
+}
+
+.price-container {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.price-container h2 {
+    font-size: 36px;
+}
+
+.price-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFD6F1;
+    color: #5D3317;
+    font-weight: bold;
+}
+
+.plan .price {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #7BAA5A;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    margin: 0 auto -50px;
+    position: relative;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5D3317;
+    padding: 50px 5px;
+}
+
+.plan .about-btn {
+    background-color: #7BAA5A;
+    color: #fff;
+    font-size: 23px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended {
+    background-color: #d4b817;
+    color: #fff;
+    text-shadow: #000 1px 1px 1px;
+}
+
+.searchbake-container {
+    background-color:#5C3C0D;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchbake-container h2 {
+    font-size: 42px;
+    color: #FFF8E7;
+    margin-bottom: 25px;
+}
+
+.searchbake-container p {
+    color:#FFF8E7 ;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchbake-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchbake-container input[type="text"] {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchbake-container input[type="submit"] {
+    background-color: #93C572;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #5C3C0D;
+    opacity: 0.8;
+}
+
+.searchbake-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
+
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+    background-color:#9ED6EB ;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #FFb6c1;
+    background-color: #fff;
+    border-radius: 3px;
+    width: fit-content;
+    box-shadow: #0000001e 2px 3px 2px ;
+}
+
+.contact-container p {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-bottom: 40px ;
+    color: #ffb6c1;
+    font-weight: bold;
+    background-color: #fff;
+    width: fit-content;
+    text-align: center;
+    box-shadow: #0000001e 2px 3px 2px ;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 230px;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    resize: vertical;
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    max-width: 100%;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #7BAA5A;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.contact-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    color: #5C3C0D;
+}
