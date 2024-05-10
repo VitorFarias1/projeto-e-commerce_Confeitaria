@@ -269,25 +269,23 @@ nav {
 .contact-container h2 {
     font-size: 36px;
     margin: 0 auto;
-    padding: 10px;
-    margin-bottom: 15px;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
     color: #FFb6c1;
     background-color: #fff;
-    border-radius: 3px;
-    width: fit-content;
+    width: 60%;
     box-shadow: #0000001e 2px 3px 2px ;
 }
 
 .contact-container p {
     margin: 0 auto;
-    padding: 10px;
-    border-radius: 3px;
+    padding: 10px 10px 30px 10px;
     font-size: 20px;
     margin-bottom: 40px ;
     color: #ffb6c1;
     font-weight: bold;
     background-color: #fff;
-    width: fit-content;
+    width: 60%;
     text-align: center;
     box-shadow: #0000001e 2px 3px 2px ;
 }
@@ -331,4 +329,94 @@ footer {
 
 footer p {
     color: #5C3C0D;
+}
+
+/* Responsividade da página */
+
+/* Small laptops a partir de 1100px */
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* tablets 900px */
+@media (max-width: 900px) {
+    .main-banner p {
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchbake-container {
+        padding: 2rem 4rem;
+    }
+
+}
+
+/* celular 576px */
+@media (max-width: 576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .searchbake-container h2 {
+        font-size: 28px;
+    }
+
+    .searchbake-container input {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
