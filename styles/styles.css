@@ -325,10 +325,11 @@ nav {
 footer {
     text-align: center;
     font-weight: bold;
+    padding: 10px;
 }
 
 footer p {
-    color: #5C3C0D;
+    color: #FFB6C1;
 }
 
 /* Responsividade da página */
